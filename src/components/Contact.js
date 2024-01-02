@@ -82,7 +82,7 @@ const StyledContactImage = styled.img`
   animation: ${fadeIn} 5s ease-in-out infinite; 
 `;
 const StyledContactForm = styled.div`
-  width: 500px;
+  width: 350px;
   padding:20px;
 
   form {
