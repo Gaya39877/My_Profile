@@ -30,12 +30,13 @@ export const Contact = () => {
 
   return (
     <StyledContactSection>
-      <div>
+<div className="row  "> 
+  <div className="col-12 col-md-6 ">
         <h2 className="title-end"> Stay on Alert...</h2>
-        <StyledContactImage src={contactImg} alt="Contact" />
+        <StyledContactImage src={contactImg} alt="Contact" className="mx-auto d-block" />
       </div>
-      <div>
-        <StyledContactForm>
+      <div className="col-12 col-md-6">
+        <StyledContactForm className="mx-auto d-block">
         <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="user_name" />
@@ -46,7 +47,8 @@ export const Contact = () => {
             <input type="submit" value="Send" />
           </form>
         </StyledContactForm>
-      </div>
+      </div></div>
+     
     </StyledContactSection>
   );
 };
@@ -75,7 +77,7 @@ const StyledContactSection = styled.section`
 const StyledContactImage = styled.img`
   width: 400px;
   height: auto;
-  margin-left: 150px;
+  // margin-left: 150px;
   align-items: center;
   animation: ${fadeIn} 5s ease-in-out infinite; 
 `;
