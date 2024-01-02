@@ -83,6 +83,7 @@ const StyledContactImage = styled.img`
 `;
 const StyledContactForm = styled.div`
   width: 500px;
+  padding:20px;
 
   form {
     display: flex;
