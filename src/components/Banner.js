@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/WhatsApp Image 2023-12-24 at 16.48.18.png";
+import headerImg from "../assets/img/WhatsApp Image 2025-01-21 at 22.28.43.jpeg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Data Science Enthusiasts","Upwork Freelancer"];
+  const toRotate = [ "Data Engineer", "Data Science Enthusiasts","Upwork Freelancer"];
   const period = 1000;
 
   useEffect(() => {
