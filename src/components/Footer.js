@@ -14,11 +14,11 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/gayathri-rasangika-51a815204/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://github.com/Gayathri9877"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://github.com/Gaya39877"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://instagram.com/rasangikahw?igshid=MzMyNGUyNmU2YQ=="><img src={navIcon3} alt="Icon" /></a>
               <a href="https://www.upwork.com/freelancers/~018298cab1bba71fd5"><img src={navIcon4} alt="" /></a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
